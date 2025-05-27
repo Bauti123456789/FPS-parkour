@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7722295906789199512}
   - component: {fileID: 114391748244753374}
-  - component: {fileID: 64132237902210836}
   - component: {fileID: 54785111909539880}
   m_Layer: 0
   m_Name: barril prefab
@@ -47,20 +46,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scorePoints: 0
---- !u!64 &64132237902210836
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2291698762281397878}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
 --- !u!54 &54785111909539880
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -88,7 +73,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 480bd4756e59b804a9c938112cf9e123, type: 3}
 --- !u!1001 &5168351762710720874
